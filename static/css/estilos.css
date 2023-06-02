@@ -1,0 +1,72 @@
+header {
+    background-color: #070028;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    background-image: url(img/document.jfif);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: auto 80%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 300px; /* Ajusta este valor según tus necesidades */
+    object-fit: cover;
+    object-position: center 40%;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px; /* Ajusta el espaciado entre columnas según tus necesidades */
+  }
+  
+  .title {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .column:nth-child(2) {
+    align-self: flex-start; /* Alinea la segunda columna con el borde izquierdo */
+  }
+  
+  .form-control {
+    /* Estilos para tus selects, por ejemplo */
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  .custom-btn {
+    width: 430px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #06005e;
+    color: white;
+    border: none;
+  }
+  
+  .custom-btn:hover {
+    background-color: #06005e;
+  }
+
+  .custom-input {
+    width: 530px;
+    height: 30px;
+  }
+  h1 {
+    padding: 10px;
+    font-size: 24px;
+  }
+  
+
+
+
+  
